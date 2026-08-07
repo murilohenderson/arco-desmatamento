@@ -6,7 +6,7 @@
 
 ## 📍 Objetivo
 
-Este mapa tem como objetivo visualizar espacialmente o **incremento anual de desmatamento** na Amazônia Legal entre 2008 e os anos mais recentes disponíveis, destacando a região conhecida popularmente como **"Arco do Desmatamento"** — uma faixa de pressão antrópica que avança sobre a floresta a partir de seus limites sul e leste. O produto foi desenvolvido como parte da formação em geoprocessamento e análise espacial, servindo como peça de portfólio técnico-científico.
+Este mapa tem como objetivo visualizar espacialmente o **incremento anual de desmatamento** na Amazônia Legal, destacando a região conhecida popularmente como **"Arco do Desmatamento"** — uma faixa de pressão antrópica que avança sobre a floresta a partir de seus limites sul e leste. O produto foi desenvolvido como parte da formação em geoprocessamento e análise espacial, servindo como peça de portfólio técnico-científico.
 
 ---
 
@@ -27,7 +27,7 @@ Este mapa tem como objetivo visualizar espacialmente o **incremento anual de des
 | **Dataset** | Incremento Anual de Desmatamento — PRODES |
 | **Produtor** | Instituto Nacional de Pesquisas Espaciais (INPE) |
 | **Plataforma de acesso** | [TerraBrasilis](http://terrabrasilis.dpi.inpe.br/) |
-| **Cobertura temporal** | 2008 até o ano mais recente disponível |
+| **Cobertura temporal** | 2000 até o ano mais recente disponível |
 | **Cobertura espacial** | Amazônia Legal, Brasil |
 | **Licença dos dados** | [Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR) |
 | **Projeção** | SIRGAS 2000 / Geográficas (EPSG:4674) |
