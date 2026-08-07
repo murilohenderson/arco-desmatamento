@@ -1,0 +1,108 @@
+# =============================================================================
+# .gitignore para Projeto QGIS — Arco do Desmatamento
+# =============================================================================
+
+# ─── Arquivos temporários e de backup do QGIS ───────────────────────────────
+*.qgz~
+*.qgs~
+*.qgd
+*.bak
+*.tmp
+
+# Arquivos de lock do QGIS
+*.qgs.lock
+*.qgz.lock
+
+# Pasta de dados temporários do QGIS
+/qgis_tmp/
+
+# ─── Dados brutos pesados (shapefiles, rasters) ─────────────────────────────
+# Descomente as linhas abaixo para ignorar shapefiles da pasta data/raw
+data/raw/*.shp
+data/raw/*.dbf
+data/raw/*.shx
+data/raw/*.prj
+data/raw/*.cpg
+data/raw/*.qpj
+data/raw/*.sbn
+data/raw/*.sbx
+data/raw/*.fbn
+data/raw/*.fbx
+data/raw/*.ain
+data/raw/*.aih
+data/raw/*.atx
+data/raw/*.ixs
+data/raw/*.mxs
+data/raw/*.xml
+
+# Rasters pesados
+data/raw/*.tif
+data/raw/*.tiff
+data/raw/*.geotiff
+data/raw/*.img
+data/raw/*.ecw
+data/raw/*.jp2
+
+# Arquivos compactados de dados brutos
+data/raw/*.zip
+data/raw/*.gz
+data/raw/*.tar
+data/raw/*.7z
+
+# GeoPackage pesados
+data/raw/*.gpkg
+
+# ─── Sistemas Operacionais ───────────────────────────────────────────────────
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# ─── Editores e IDEs ─────────────────────────────────────────────────────────
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# ─── Python (se houver scripts de apoio) ────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+env/
+
+# ─── R (se houver scripts de apoio) ─────────────────────────────────────────
+.Rhistory
+.RData
+.Rproj.user/
+
+# ─── Logs ───────────────────────────────────────────────────────────────────
+*.log
+
+# ─── Manter pastas vazias (não ignorar os .gitkeep) ────────────────────────
+!.gitkeep
+
+outputs/*.pdf
