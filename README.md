@@ -91,7 +91,7 @@ O layout final foi composto no **Gerenciador de Layouts** do QGIS, contendo:
 
 ## Sobre o Autor
 
-**Augusto Murça**
+**Murilo Henderson**
 Estudante de **Sistemas de Informação** na Universidade Federal Rural da Amazônia (UFRA).
 Pesquisador de iniciação científica **PIBIC** na interface entre **epidemiologia espacial** e geotecnologias, com vínculo ao **Projeto Trajetórias (INPE/Fiocruz)**.
 Trabalha com geoprocessamento, análise espacial e dados ambientais utilizando **QGIS, Python e R**.
@@ -110,7 +110,7 @@ Este repositório — incluindo o mapa, layout cartográfico, simbologia e docum
 **Você pode:** compartilhar o material com atribuição ao autor.
 **Você não pode:** usar comercialmente, modificar, adaptar ou criar obras derivadas.
 
-© 2025 Augusto Murça. Todos os direitos reservados sobre a obra cartográfica.
+© 2025 Murilo Henderson. Todos os direitos reservados sobre a obra cartográfica.
 
 Os **dados de origem** (PRODES/INPE) são públicos e seguem a licença **CC BY-SA 4.0** do produtor.
 
