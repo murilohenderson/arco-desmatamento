@@ -1,33 +1,29 @@
-# 🌳 Arco do Desmatamento — Cartografia da Perda Florestal na Amazônia Legal
+# Arco do Desmatamento — Cartografia da Perda Florestal na Amazônia Legal
 
 > Mapa de geoprocessamento produzido no QGIS, representando o avanço anual do desmatamento na Amazônia Legal com base nos dados oficiais do PRODES/INPE.
 
 ---
 
-## 📍 Objetivo
+## Objetivo
 
-Este mapa tem como objetivo visualizar espacialmente o **incremento anual de desmatamento** na Amazônia Legal, destacando a região conhecida popularmente como **"Arco do Desmatamento"** — uma faixa de pressão antrópica que avança sobre a floresta a partir de seus limites sul e leste. O produto foi desenvolvido como parte da formação em geoprocessamento e análise espacial, servindo como peça de portfólio técnico-científico.
+Este mapa tem como objetivo visualizar espacialmente o **incremento anual de desmatamento** na Amazônia Legal, destacando a região conhecida popularmente como **"Arco do Desmatamento"** — uma faixa de pressão antrópica que avança sobre a floresta a partir de seus limites sul e leste. O produto foi desenvolvido como parte da formação em geoprocessamento e análise espacial, servindo como peça de portfólio.
 
 ---
 
-## 🗺️ Visualização do Mapa
+## Visualização do Mapa
 
 ![Mapa do Arco do Desmatamento — Amazônia Legal](outputs/Mapa%20do%20Arco%20do%20Desmatamento%20com%20Autoria.png)
 
-> **Arquivo completo em alta resolução:** [`Mapa do Arco do Desmatamento Com Autoria.pdf`](outputs/Mapa%20do%20Arco%20do%20Desmatamento%20Com%20Autoria.pdf)
-
-> ⚠️ **Nota:** o PDF tem ~740 MB e **não pode ser enviado ao GitHub** (limite de 100 MB). Suba apenas o PNG. O PDF fica salvo localmente ou em serviço externo (Google Drive, etc.).
-
 ---
 
-## 📦 Fonte de Dados
+## Fonte de Dados
 
 | Item | Detalhes |
 |---|---|
 | **Dataset** | Incremento Anual de Desmatamento — PRODES |
 | **Produtor** | Instituto Nacional de Pesquisas Espaciais (INPE) |
 | **Plataforma de acesso** | [TerraBrasilis](http://terrabrasilis.dpi.inpe.br/) |
-| **Cobertura temporal** | 2000 até o ano mais recente disponível |
+| **Cobertura temporal** | 2000 até o ano mais recente disponível (2025) |
 | **Cobertura espacial** | Amazônia Legal, Brasil |
 | **Licença dos dados** | [Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR) |
 | **Projeção** | SIRGAS 2000 / Geográficas (EPSG:4674) |
@@ -36,7 +32,7 @@ Este mapa tem como objetivo visualizar espacialmente o **incremento anual de des
 
 ---
 
-## 🔬 Metodologia
+## Metodologia
 
 ### 1. Obtenção dos Dados
 - Download da camada de **incremento anual de desmatamento** (formato shapefile) via plataforma TerraBrasilis/PRODES.
@@ -44,7 +40,6 @@ Este mapa tem como objetivo visualizar espacialmente o **incremento anual de des
 ### 2. Processamento no QGIS
 - Importação e inspeção dos atributos da camada vetorial.
 - **Filtragem** dos polígonos de incremento por ano de detecção, mantendo o período de análise desejado.
-- **Simbologia categorizada por ano:** cada ano recebe uma cor distinta em gradiente cromático, do mais antigo (cores mais frias) ao mais recente (cores mais quentes), evidenciando a progressão temporal do desmatamento.
 - Definição do **Sistema de Referência de Coordenadas:** SIRGAS 2000 (EPSG:4674), padrão geodésico oficial do Brasil.
 
 ### 3. Montagem do Layout Cartográfico
@@ -94,19 +89,19 @@ O layout final foi composto no **Gerenciador de Layouts** do QGIS, contendo:
 
 ---
 
-## 👤 Sobre o Autor
+## Sobre o Autor
 
 **Augusto Murça**
-Estudante de **Sistemas de Informação** (3º semestre) na Universidade Federal Rural da Amazônia (UFRA).
-Pesquisador de iniciação científica **PIBIC** na interface entre **epidemiologia espacial** e geotecnologias, com vínculo ao **INPE/Fiocruz**.
+Estudante de **Sistemas de Informação** na Universidade Federal Rural da Amazônia (UFRA).
+Pesquisador de iniciação científica **PIBIC** na interface entre **epidemiologia espacial** e geotecnologias, com vínculo ao **Projeto Trajetórias (INPE/Fiocruz)**.
 Trabalha com geoprocessamento, análise espacial e dados ambientais utilizando **QGIS, Python e R**.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=flat&logo=linkedin)](https://linkedin.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Perfil-181717?style=flat&logo=github)](https://github.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=flat&logo=linkedin)]([https://linkedin.com](https://www.linkedin.com/in/murilohenderson/))
+[![GitHub](https://img.shields.io/badge/GitHub-Perfil-181717?style=flat&logo=github)]([https://github.com](https://github.com/murilohenderson/))
 
 ---
 
-## 📜 Licença
+## Licença
 
 Este repositório — incluindo o mapa, layout cartográfico, simbologia e documentação — está licenciado sob **Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional (CC BY-NC-ND 4.0)**.
 
