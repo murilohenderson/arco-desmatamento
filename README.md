@@ -78,7 +78,7 @@ O layout final foi composto no **Gerenciador de Layouts** do QGIS, contendo:
 │   └── Mapa do Arco do Desmatamento com Autoria.png   ← PNG para visualização web
 │
 ├── 📂 data/
-│   ├── 📂 raw/                ← Dados brutos (NÃO versionados — ver .gitignore)
+│   ├── 📂 raw/                ← Dados brutos (NÃO versionados)
 │   │   └── .gitkeep
 │   └── 📂 processed/          ← Dados processados leves (ex.: GeoJSON filtrado)
 │       └── .gitkeep
